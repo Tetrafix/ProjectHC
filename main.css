@@ -5,21 +5,8 @@ body {
     margin: 0;
     padding: 0;
 }
-/*ul {
-    list-style: none;
-    padding: 0;
-}
-li {
-    display: inline-block;
-}
-section.feature-box {
-    display: flex;
-}
-section.feature-box.sales div {
-    background: grey;
-    width: 100%;
-    margin: 1px;
-}*/
+
+/* Header */
 
 header {
     background: #0B0C10;
@@ -79,6 +66,7 @@ li:hover {
     background-color: #45A29E;
 }
 
+/* Features */
 
 .feature {
     background: #0B0C10;
@@ -90,7 +78,9 @@ li:hover {
 
 .feature figure {
     margin: auto;
+    text-align: center;
     width: 200px;
+    text-transform: uppercase;
 }
 
 .feature button {
@@ -105,13 +95,19 @@ li:hover {
 }
 
 .feature figure img {
+    border: 1px solid #1f2833;
     border-radius: 50%;
+    box-shadow: #C5C6C7 0 0 5px;
     width: 200px;
 }
 
+/* Footer */
+
 footer {
     background: black;
+    font-size: 12px;
     padding: 20px;
+    text-align: center;
 }
 
 /*header {
