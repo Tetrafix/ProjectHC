@@ -1,27 +1,170 @@
 body {
-    background:#444;
+    background:#0B0C10;
+    color: #C5C6C7;
     font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+/*ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: inline-block;
+}
+section.feature-box {
+    display: flex;
+}
+section.feature-box.sales div {
+    background: grey;
+    width: 100%;
+    margin: 1px;
+}*/
 
+header {
+    background: #0B0C10;
+    background-image: url("difcodesnip.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
 }
 
-h1, h2 {
-    color:white;
+header a {
+    color: #C5C6C7;
+    margin-top: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-a, nav {
-    color: white ;
-    padding: 5px;
-
+header .logo a {
+    background-image: url("ProjectHCLogo.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    text-indent: -999999px;
+    top: -40px;
+    width: 100px;
 }
 
-p {
-    background: #333333;
-    color: white;
-    padding: 10px;
-}
-
-.secondary {
+section {
     background: white;
-    color: black;
-    padding: 10px;
+    display: flex;
+    flex-direction: row;
 }
+
+div {
+    background: red;
+    margin: auto;
+    width: 100px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: #45A29E;
+}
+
+
+.feature {
+    background: #0B0C10;
+    color: #C5C6C7;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.feature figure {
+    margin: auto;
+    width: 200px;
+}
+
+.feature button {
+    background: #0B0C10;
+    border: none;
+    border-radius: 50%;
+    
+}
+
+.feature button:hover {
+    background-color: #66FCF1;
+}
+
+.feature figure img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+footer {
+    background: black;
+    padding: 20px;
+}
+
+/*header {
+    margin: 0;
+    color:#66FCF1;
+    padding: 10px 15px 0px 15px;
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    display: inline;
+    padding: 0 0 0 15px;
+}
+
+nav ul li {
+    color: #C5C6C7;
+    background: #45A29E;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    border-radius: 10px;
+}
+
+nav ul li button {
+    background: #45A29E;
+    color: #C5C6C7;
+}
+
+nav ul li a {
+    color: #C5C6C7;
+    margin: 0;
+}
+
+.row {
+    clear: both;
+}
+
+.col{
+    background: #333;
+    border-radius: 5px;
+    color: white;
+    padding: 10px .5%;    
+    float: left;
+    margin: .5%;
+    width: 31%;
+}
+
+p, a {
+    color: #C5C6C7;
+    margin: 0;
+}*/
