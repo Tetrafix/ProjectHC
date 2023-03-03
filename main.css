@@ -1,0 +1,27 @@
+body {
+    background:#444;
+    font-family: arial;
+
+}
+
+h1, h2 {
+    color:white;
+}
+
+a {
+    color: white ;
+    padding: 5px;
+
+}
+
+p {
+    background: #333333;
+    color: white;
+    padding: 10px;
+}
+
+.secondary {
+    background: white;
+    color: black;
+    padding: 10px;
+}
