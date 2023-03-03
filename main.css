@@ -8,7 +8,7 @@ h1, h2 {
     color:white;
 }
 
-a {
+a, nav {
     color: white ;
     padding: 5px;
 
