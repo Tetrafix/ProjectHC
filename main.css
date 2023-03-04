@@ -1,34 +1,38 @@
 body {
-    background:#0C243C;
+    background:black;
     color: white;
-    font-family: Arial;
+    font-family: Roboto;
     margin: 0;
     padding: 0;
 }
 
 /* Header */
 
-header {
-    display: inline;
-    display: inline-block;
+.web-head {
+    display: flex;
+    align-items: center;
+    background-color: #0C243C;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
-.name-head{
-    width: 508px;
-    height: 264px;
-    margin-top: 50px;
+.logo {
     margin-left: 100px;
 }
-.logo-head{
-    display: inline-block;
+.main-nav {
+    list-style: none;
+    display: flex;
+    margin-left: 1200px;
+
 }
 
-.head-name {
-    display: inline-block;
-    position: relative;
-    bottom: 54px;
-    text-transform: uppercase;
-    font-size: xxx-large;
-    font-family: Oswald;
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    margin: 20px;
 }
 
+.main-nav a:hover {
+    text-decoration:wavy;
+}
